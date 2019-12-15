@@ -13,12 +13,10 @@ function calculateTotals() {
   );
   var numberOfDays = document.getElementById("numberOfDays").value;
 
-  var totalPerDay;
-  var grandTotal;
+  var totalPerDay = 10;
+  var grandTotal = 0;
 
-  if (selectedCageSize === "small") {
-    totalPerDay = 10;
-  } else {
+  if (selectedCageSize === "large") {
     totalPerDay = 15;
   }
 
